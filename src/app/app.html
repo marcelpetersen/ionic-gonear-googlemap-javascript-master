@@ -1,0 +1,43 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/logo.svg">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-menu [content]="mycontent">
+  <ion-content no-bounce>
+    <ion-card text-center class="hide-card">
+	    <img src="assets/profile.svg" class="custom-avatar"/> 
+	    <h2>Mokup</h2>
+	    <p>Free functional mokup for your business, profession and project</p>
+	</ion-card>
+	<ion-list class="menu-icon-list">
+	  <ion-item>
+	    <ion-icon name="navigate" item-start></ion-icon>
+	    Satellite
+	  </ion-item>
+	  <ion-item> 
+	    <ion-icon name="car" item-start></ion-icon>
+	    Traffic
+	  </ion-item>
+	  <ion-item>
+	    <ion-icon name="git-merge" item-start></ion-icon>
+	    Transit
+	  </ion-item>
+	  <ion-item>
+	    <ion-icon name="bicycle" item-start></ion-icon>
+	    Bicycling
+	  </ion-item>
+	  <ion-item>
+	    <ion-icon name="globe" item-start></ion-icon>
+	    Terrain
+	  </ion-item>
+	</ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>
+
+

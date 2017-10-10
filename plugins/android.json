@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.gonear"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.gonear"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.gonear"
+        }
+    }
+}

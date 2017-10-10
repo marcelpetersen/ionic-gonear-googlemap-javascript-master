@@ -1,0 +1,176 @@
+.toast-wrapper {
+    background-color: #FF6978 !important;
+}
+
+.alert-title {
+    color: #666 !important;
+}
+
+page-gmap {
+
+    .intro-guide,
+    .intro-guide-center {
+        height: 100%;
+    }
+
+    .intro-guide-center {
+        text-align: center;
+    }
+
+    .scroll-buttons {
+        height: 80px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .header-md::after {
+        display: none;
+        background: none;
+    }
+
+    .toolbar-background-ios,
+    .toolbar-background-md {
+        border-bottom: 0 !important;
+        background: #fff;
+    }
+
+    .padding-no {
+        padding: 0;
+    }
+
+    .padding-left-fix {
+        padding-left: 10px;
+    }
+
+    .padding-top-bot,
+    .toolbar-md  {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .push-right {
+        text-align: -webkit-right;
+    }
+
+    .miles-label {
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        color: #666;
+        font-size: .8em;
+    }
+
+    .miles-drop {
+
+        .item-cover {
+            width: auto;
+        }
+        
+        background: transparent;
+        padding-left: 0px;
+        min-height: .1em;
+
+        .select {
+            padding: 1px 8px 1px 1px;
+            max-width: 70%;
+        }
+
+        .item-inner {
+            border-bottom: 0px !important;
+        }
+         
+    }
+
+	.scroll {
+        height: 100%
+    }
+
+    #map {
+        width: 100%;
+        height: 78vh;
+    }
+
+    .scrollnavcnt { 
+
+
+    	.button-bg {
+    		background: transparent;
+
+    		padding-left: 1.2em;
+            padding-right: 1.2em;
+    		padding-top: .4em;
+    	
+    	} 
+
+        .button-bg {
+
+            label {
+                padding-top: .6em;
+                display: block;
+            }
+
+        }
+
+    	.icon-pizza,
+        .icon-cut,
+        .icon-jet,
+        .icon-card,
+        .icon-cash,
+        .icon-cafe,
+        .icon-happy,
+        .icon-rose,
+        .icon-medkit,
+        .icon-speedometer {
+    		font-weight: normal !important;
+    		font-size: 1.5em;
+    		border-radius: 50%;
+    		line-height: 38px;
+			width: 38px;
+            color: #fff;
+			height: 38px;
+			-webkit-background-clip: padding-box; 
+			background-clip:         padding-box;
+    	}
+
+
+        .icon-pizza {
+            background: #4357AD;
+        }
+
+        .icon-cut {
+            background: #FF6978;
+        }
+
+        .icon-jet {
+            background: #F45B69;
+        }
+
+        .icon-card {
+            background: #48A9A6;
+        }
+
+        .icon-cash {
+            background: #7B4B94;
+        }
+
+        .icon-cafe {
+            background: #DBA159;
+        }
+
+        .icon-happy {
+            background: #4D2D52;
+        }
+
+        .icon-rose {
+            background: #9A4C95;
+        }
+
+        .icon-medkit {
+            background: #FF8811;
+        }
+
+        .icon-speedometer {
+            background: #DB504A;
+        }
+    }
+
+}

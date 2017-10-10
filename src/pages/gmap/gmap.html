@@ -1,0 +1,130 @@
+<ion-header>
+<ion-navbar>
+    
+
+<ion-grid class="padding-no">
+  <ion-row class="padding-no">
+    <ion-col col-6  class="padding-top-bot padding-left-fix">
+        <ion-label class="miles-label">SEACH WITHIN</ion-label>
+        <ion-item class="miles-drop">
+            <ion-label style="display:none">Search Within</ion-label>
+              <ion-select [(ngModel)]="miles">
+                <ion-option value="1000" selected>1 Km</ion-option>
+                <ion-option value="2000">2 Km</ion-option>
+                <ion-option value="3000">3 Km</ion-option>
+                <ion-option value="4000">4 Km</ion-option>
+                <ion-option value="5000">5 Km</ion-option>
+                <ion-option value="6000">6 Km</ion-option>
+                <ion-option value="7000">7 Km</ion-option>
+                <ion-option value="8000">8 Km</ion-option>
+                <ion-option value="9000">8 Km</ion-option>
+                <ion-option value="10000">10 Km</ion-option>
+              </ion-select>
+        </ion-item>
+    </ion-col>
+    <ion-col col-6 class="push-right padding-top-bot">
+        
+            <button ion-button icon-only menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        
+    </ion-col>
+    
+  </ion-row>
+</ion-grid>
+
+      
+</ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+
+<ion-scroll scrollX="true" class="scroll-buttons">
+        <ion-row nowrap class="scrollnavcnt">
+            
+            <button class="button-bg" (click)="getMyPosition('beauty_salon','FF6978')">
+                <div>
+                <ion-icon class="icon-cut" name='cut'></ion-icon>
+                <label>Salon</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('restaurant','4357AD')">
+                <div>
+                <ion-icon class="icon-pizza" name='pizza'></ion-icon>
+                <label>Food</label>
+                </div>
+            </button> 
+
+            <button class="button-bg" (click)="getMyPosition('airport','F45B69')">
+                <div>
+                <ion-icon class="icon-jet" name='jet'></ion-icon>
+                <label>Airport</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('atm','48A9A6')">
+                <div>
+                <ion-icon class="icon-card" name='card'></ion-icon>
+                <label>ATM</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('bank','7B4B94')">
+                <div>
+                <ion-icon class="icon-cash" name='cash'></ion-icon>
+                <label>Bank</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('cafe','DBA159')">
+                <div>
+                <ion-icon class="icon-cafe" name='cafe'></ion-icon>
+                <label>Cafe</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('dentist','4D2D52')">
+                <div>
+                <ion-icon class="icon-happy" name='happy'></ion-icon>
+                <label>Dentist</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('doctor','9A4C95')">
+                <div>
+                <ion-icon class="icon-medkit" name='medkit'></ion-icon>
+                <label>Doctor</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('florist','FF8811')">
+                <div>
+                <ion-icon class="icon-rose" name='rose'></ion-icon>
+                <label>Florist</label>
+                </div>
+            </button>
+
+            <button class="button-bg" (click)="getMyPosition('gas_station','DB504A')">
+                <div>
+                <ion-icon class="icon-speedometer" name='speedometer'></ion-icon>
+                <label>Fuel</label>
+                </div>
+            </button>
+            
+        </ion-row>
+      </ion-scroll>
+
+    <div #map id="map">
+        <!-- MAP CONTENT -->
+        <ion-grid class="intro-guide">
+          <ion-row justify-content-center align-items-center class="intro-guide-center">
+
+            Start your search with a tap on icon above. <br>You may even slide the icons for more search categories.
+
+          </ion-row>
+        </ion-grid>
+    </div> 
+
+
+</ion-content>
